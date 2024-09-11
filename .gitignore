@@ -1,0 +1,17 @@
+# Ignore virtual environment
+/env/
+
+# Ignore .env file containing sensitive information
+.env
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore other common files/folders
+.vscode/
+*.log
+
+#ignore db and event-images
+event_payments.db
+/event_images/
